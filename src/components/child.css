@@ -1,0 +1,56 @@
+.paiBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 626px;
+  background: green;
+  border: 8px solid #340b43;
+  border-radius: 6px;
+}
+
+#spanBox {
+  background: #c4914c;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: #ffc462;
+  margin: 5px;
+  border-radius: 6px;
+  color: black;
+}
+
+#dragao {
+  width: 95%;
+}
+
+#descricao {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #ffc462;
+  border-radius: 5px;
+  color: black;
+}
+
+#atkEdef {
+  /* background: blue; */
+  width: 96%;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+  border-top: 2px solid black;
+}

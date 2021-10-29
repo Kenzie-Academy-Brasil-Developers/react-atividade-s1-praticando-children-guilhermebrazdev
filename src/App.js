@@ -1,13 +1,13 @@
 // import { Children } from "react";
 import "./App.css";
-import Children from "./components/CenteredCard";
+import CenteredCard from "./components/CenteredCard";
 import dragao from "./assets/dragãoBranco_olhosAzuis.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Children>
+        <CenteredCard>
           <div id="title">
             <h1>Dragão Branco de Olhos Azuis</h1>
           </div>
@@ -24,7 +24,7 @@ function App() {
           <div id="atkEdef">
             <p>ATK/3000 DEF/2500</p>
           </div>
-        </Children>
+        </CenteredCard>
       </header>
     </div>
   );

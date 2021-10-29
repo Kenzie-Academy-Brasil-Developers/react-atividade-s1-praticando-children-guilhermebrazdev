@@ -1,6 +1,6 @@
 import "./child.css";
 
-function Children({ children }) {
+function CenteredCard({ children }) {
   return (
     <div className="paiBox">
       <span id="spanBox">{children}</span>
@@ -8,4 +8,4 @@ function Children({ children }) {
   );
 }
 
-export default Children;
+export default CenteredCard;
